@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Mardoto";
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: Mardoto; /*Can be any text*/
+    src: url(./font/Mardoto-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: Rus_font; /*Can be any text*/
+    src: url(./font/Acrom-Regular.ttf);
+
+}
+
+.css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon {
+    height: 100px !important;
+    width: 21px !important;
+    color: rgba(100, 98, 98, 0.8) !important;
+}
+
+.css-1v2lvtn-MuiPaginationItem-root {
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    padding-right: 1px !important;
+    letter-spacing: 2px !important;
+    padding-top: -10px !important;
+    min-width: 10px !important;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    color: #3d9a85 !important;
+    background: none !important;
+}
+
+/* HomePage swiper icons css  */
+.swiper-button-next {
+    background-image: url(./assets/next_arrow.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+    background-position: center !important;
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.swiper-button-next:hover {
+    background-image: url(./assets/next_arrow_green.png) !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev {
+    background-image: url(./assets/prev_arrow.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+    background-position: center !important;
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.swiper-button-prev:hover {
+    background-image: url(./assets/prev_arrow_green.png) !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .swiper {
+        overflow: visible;
+    }
+}
