@@ -1,0 +1,65 @@
+.content {
+    width: 238px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 4px;
+    margin-right: 11px;
+}
+
+.picBig {
+    width: 238px;
+    height: 140px;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.time {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #999999;
+    margin-left: 5px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.fire {
+    height: 16px;
+    width: 13px;
+    margin-left: 10px;
+}
+
+.clock {
+    height: 16px;
+    width: 16px;
+}
+
+.boxstars {
+}
+
+.star {
+    width: 12px;
+    height: 12px;
+}
+
+.rate {
+    color: #999999;
+    margin-top: -18px;
+    margin-left: 64px;
+    font-size: 15px;
+    font-weight: 600;
+}

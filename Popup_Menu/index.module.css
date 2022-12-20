@@ -1,0 +1,41 @@
+.overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(83, 83, 83, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0.6;
+    width: 100vw;
+    z-index: 2;
+    margin-top:165px;
+
+}
+
+.main {
+
+    z-index: 10; 
+    overflow: hidden;
+    display: block;
+}
+
+.popup {
+    position: absolute;
+    border-radius: 4px;
+    transition: all 5s ease-in-out;
+    z-index: 3;
+    visibility: hidden;
+ 
+}
+
+.close {
+
+    float: right;
+    height: 32px;
+    width: 32px;
+
+
+}
+

@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 124px;
+  width: 155px;
+  border-radius: 4px;
+  background: #fefffe;
+  margin-top: 16px;
+  margin-right: 25px;
+}
+
+.pic {
+  width: 60px;
+  height: 60px;
+  background: #f6f6f6;
+  border-radius: 50%;
+}
+
+.text {
+  font-family: "Mardoto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #212121;
+}

@@ -1,0 +1,62 @@
+.content {
+    height: auto;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 30px;
+    min-width: 160px;
+    width: auto;
+}
+
+.checked {
+    height: 66.66669464111328px;
+    width: 66.66668701171875px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: rgba(33, 33, 33, 0.8);
+    text-align: center;
+    margin-right: 10px;
+    max-width: 450px;
+}
+
+.button {
+    height: 40px;
+    width: 240px;
+    border-radius: 4px;
+    padding: 10px, 20px, 10px, 20px;
+    color: #fefffe;
+    background: #3d9a85;
+    box-shadow: 0px 4px 4px rgba(51, 58, 57, 0.15);
+    border: none;
+    font-size: 15px;
+}
+
+.cart1 {
+    height: 90px;
+    width: 78px;
+}
+
+@media screen and (max-width: 850px) {
+    .text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: rgba(33, 33, 33, 0.8);
+        text-align: center;
+        margin-right: 10px;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cart1 {
+        height: 54.0035514831543px;
+        width: 42.51576232910156px;
+    }
+}

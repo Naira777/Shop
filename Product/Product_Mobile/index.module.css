@@ -1,0 +1,274 @@
+.content {
+
+    height: auto;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-bottom: 70px;
+
+
+}
+
+.picbox {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 160px; 
+    width: 90vw;
+    background: #FEFFFE;
+    margin-top: 15px;
+
+}
+
+.pic {
+
+    height: 281px;
+    width: 70vw;
+    min-width: 230px;
+    border-radius: 4px;
+    object-fit: contain;
+
+
+}
+
+.header {
+
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #101010;
+    margin-left: -10px;
+
+}
+
+.text {
+
+    width: 85vw;
+    height: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: -7px;
+    overflow: hidden;
+    color: rgba(33, 33, 33, 0.8);
+
+
+}
+
+.boxcount {
+
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3D9A85;
+    font-size: 23px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.count {
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #3D9A85;
+    margin-right: 44px;
+    margin-left: 44px;
+    padding-top: 10px;
+
+}
+.button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 118px;
+    height: 40px;
+    background: #3D9A85;
+    border-radius: 4px;
+    color: #FEFFFE;
+    margin-left: 44px;
+    cursor: pointer;
+}
+.avelin {
+    display: inline;
+    color: rgba(77, 148, 253, 0.8);
+    padding-left: 180px;
+    cursor: pointer;
+}
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vector {
+    margin-top: 20px;
+    cursor: pointer;
+}
+.star {
+    width: 14px;
+    height: 14px;
+}
+.boxstars {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    margin-left: -10px;;
+}
+.box2 {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 10px;
+}
+.rate {
+    color: #999999;
+    margin-top: -24px;
+    margin-left: 65px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.flags {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(-30vw, -102px);
+   }
+.boxc {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+   
+}
+.boxprice {
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -30px;
+    
+}
+.Priceline {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #999999;
+}
+.Price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+    margin-top: -15px;
+
+  
+}
+.Pricefor1 {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #999999;
+    margin-top: -15px;
+}
+.boxp {
+    display: flex;
+    flex-direction: column;
+   margin-top: -53px;
+  
+}
+.pic1 {
+    
+    height: 15px;
+    width: 40.000003814697266px;
+    margin-bottom: -65px;
+}
+.pic2 {
+    height: 15px;
+    width: 40.000003814697266px;
+    margin-top: -10px;
+}
+.dexintext {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 37px;
+    color: white;
+    margin-left: 5px;
+}
+.box1 {
+
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .boxc {
+        width: 85vw;
+        display: flex;
+        flex-direction: row;       
+        margin-right: 10px;      
+        /* min-width: 240px; */
+        }
+    .boxcount {
+
+        height: 40px;
+        width: 40px;     
+    }    
+    .count {   
+     
+        margin-right: 15px;
+        margin-left: 15px;     
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 118px;
+        height: 40px;
+        background: #3D9A85;
+        border-radius: 4px;
+        color: #FEFFFE;
+    
+      }
+    .boxprice {
+        display: flex;
+        width: 83vw;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 70px;
+        min-width: 240px; 
+        margin-bottom: -10px;  
+    
+    }
+    .avelin {
+        display: inline;
+        color: rgba(77, 148, 253, 0.8);
+        padding-left: 110px;  
+    
+    }
+}
+@media screen and (max-width: 370px) {
+
+    .pic {
+        height: 220px;
+        width: 70vw;
+        min-width: 230px;
+        margin-left:-20px; 
+    
+    }  
+  }
+    

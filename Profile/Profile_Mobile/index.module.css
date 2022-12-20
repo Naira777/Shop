@@ -1,0 +1,110 @@
+.main {
+    width: 100vw;
+    margin-bottom: 100px;
+}
+.header {  
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fefffe;
+}
+.text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #fefffe;
+    margin-bottom: -10px;
+}
+.vector {
+    height: 14px;
+    width: 14px;
+    margin-top: 15px;
+}
+.edit {
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-top: 55px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.content {
+    height: 172px;
+    padding-left: 15px;
+    background: #3d9a85;
+
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.5);
+    justify-content: flex-start;
+    width: 89%;
+    margin-left: 15px;
+    cursor: pointer;    
+}
+.icon {
+    height: 24px;
+    width: 24px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+.slaq {
+    height: 12px;
+    width: 9px;   
+}
+.text_icon {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #212121;
+    width: max-content;
+}
+.boxslaq {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+   }
+.boxIcon {
+    align-self: flex-start;
+   }
+.boxtext {
+    width: 85%;
+    align-items: flex-start;
+    cursor: pointer;
+}
+.cartqty {
+    border-radius: 50%;
+    background: #3D9A85;
+    height: 15px;
+    width: 15px;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: -8px;
+    margin-left: 16px;
+    transform: translateY(13px);
+}
+.akciaqty {
+    border-radius: 50%;
+    background: red;
+    height: 10px;
+    width: 10px;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: -8px;
+    margin-left: 13px;
+    transform: translateY(13px);
+}
+.box:hover .text_icon {
+    color: #3D9A85;
+}

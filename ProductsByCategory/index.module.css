@@ -1,0 +1,137 @@
+.Content {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.vector {
+    height: 14px;
+    width: 14px;
+    margin-top: 22px;
+}
+
+.text {
+ 
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #212121;
+    margin-left: 80px;
+}
+
+.Button {
+    padding: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    color: black;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 32px;
+    z-index: -1;
+}
+
+.buttonMore_desktop {
+    width: 230px;
+    height: 45px;
+    background: #3d9a85;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.buttonMore:hover {
+    box-shadow: 0px 0px 5px #648873;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+  
+}
+
+.Content_mobile {
+    width: 93vw;
+    height: auto;
+    margin-left: 12px;
+    margin-bottom: 100px;
+}
+
+.vector {
+    height: 14px;
+    width: 14px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.text_mobile {
+   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+}
+.Button {
+    padding: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    color: black;
+}
+.Box_mobile {
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxContent_mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.buttonMore_mobile {
+    width: 120px;
+    height: 35px;
+    background-color: #3d9a85;  
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+.buttonMore_desktop:hover {
+    box-shadow: 0px 0px 5px #648873;
+}
+
+.buttonMore_mobile:hover {
+    box-shadow: 0px 0px 5px #648873;
+}

@@ -1,0 +1,170 @@
+.content {
+    height: 270px;
+    width: 170px;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    background: white;
+    z-index: -1;
+}
+.b {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    position: relative;
+    height: 60%;
+}
+.box1 {
+    height: 144px;
+    width: 35%;
+    margin-top: 7px;
+    border-radius: 8px;
+}
+.picBig {
+    width: 145px;
+    height: 95px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom:-5px;
+    object-fit: contain;
+}
+.flags {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -5px;
+}
+.box2 {
+    margin-left: -50px;
+}
+.pic1 {
+    height: 15px;
+    width: 40.000003814697266px;
+    margin-bottom: -37px;
+}
+.pic2 {
+    height: 15px;
+    width: 40.000003814697266px;
+    margin-bottom: -38px;
+}
+.pic3 {
+    height: 15px;
+    width: 40.000003814697266px;
+}
+.star {
+    width: 12px;
+    height: 12px;
+}
+.boxprice {
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    margin-top: 10px;
+ }
+.box3 {
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 50%;
+}
+.text {  
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 130%;
+    color: #212121;
+    margin-top: 10px;
+}
+.rate {
+    color: #999999;
+    margin-top: -20px;
+    margin-left: 64px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Priceline {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+    color: #999999;
+    margin-bottom: -17px;
+}
+.Price {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #212121;
+    margin-bottom: 0px;
+}
+.Pricefor1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+    margin-top: 0px;
+}
+.basket {
+    width: 36px;
+    height: 36px;
+    background: #3d9a85;
+    border-radius: 4px;
+   
+   
+}
+.picbasket {
+
+    height: auto !important;
+    width: 33px !important;
+    margin-left: 1px;
+    margin-top: 2px;
+    
+}
+.yellow_text {
+    font-size: 13px;
+    line-height: 15px;
+    transform: translate(0px, 10px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red_text {
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+    transform: translate(0px, 11px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red_text_hit {
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+    transform: translate(0px, -26px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxstars {
+    margin-top: -10px;
+}
+.PricelineNull {
+    margin-bottom: -3px;
+
+}
+

@@ -1,0 +1,26 @@
+.input {
+    height: 48px;
+    width: 560px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+
+.label {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(33, 33, 33, 0.8);
+}
+
+.edit {
+    height: 14.267767906188965px;
+    width: 14.267767906188965px;
+}
+
+.boxedit {
+    width: 30px;
+}

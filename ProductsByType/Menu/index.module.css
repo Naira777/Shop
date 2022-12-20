@@ -1,0 +1,22 @@
+.Box {
+
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.link {
+
+    text-decoration: none;
+    padding: 8px;
+     font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    background: #f6f6f6;
+    border-radius: 5px;
+    color: black;
+    display: block;
+    justify-content: center;
+    margin-right: 30px;
+
+}

@@ -1,0 +1,198 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    margin-left: 15px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.eye {
+
+    width: 20px;
+    height: 20px;
+    transform: translate(-40px, 12px);
+
+}
+
+.header {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+}
+
+.text {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: rgba(33, 33, 33, 0.8);
+    width: 340px;
+
+}
+
+.textpoqr {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(33, 33, 33, 0.8);
+}
+
+.text_kapuyt {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #23527c;
+    margin-right: 15px;
+}
+
+.button {
+    width: 340px;
+    height: 40px;
+    background: #3D9A85;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0px 8px 8px rgba(51, 58, 57, 0.15);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: -8px;
+    width: 96%;
+}
+
+.country_code {
+    width: 63px;
+    height: 40px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    margin-right: 10px;
+    background: white;
+    text-align: center;
+}
+
+.tel_code {
+    /* width: 412px; */
+    height: 40px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    background: white;
+}
+
+.code {
+    width: 320px;
+    height: 40px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    background: white;
+    margin-top: -8px;
+}
+
+.vector {
+    height: 14px;
+    width: 14px;
+}
+
+.error1 {
+
+    color: #B00020;
+    font-size: 13px;
+    margin-top: -13px;
+}
+
+@media screen and (max-width: 500px) {
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .text_kapuyt {
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        color: #23527c;
+        margin-right: 15px;
+        margin-right: 60px;
+    }
+
+    .text {
+
+        width: 80vw;
+    }
+
+    .tel_code {
+        width: 58vw;
+
+    }
+
+    .button {
+        width: 81vw;
+        min-width: 150px;
+        height: 40px;
+        background: #3D9A85;
+        border-radius: 4px;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        box-shadow: 0px 8px 8px rgba(51, 58, 57, 0.15);
+    }
+
+    .header {
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #212121;
+        width: 88vw;
+    }
+
+    .code {
+        width: 80vw;
+        height: 40px;
+        border: 1px solid #999999;
+        border-radius: 4px;
+        background: white;
+        margin-top: -8px;
+    }
+
+
+}
+
+@media screen and (max-width: 350px) {
+    .text_kapuyt {
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        color: #23527c;
+        margin-right: 15px;
+        margin-right: 100px;
+    }
+
+    .tel_code {
+        width: 54vw;
+
+    }
+
+    .code {
+        width: 81vw;
+        height: 40px;
+        border: 1px solid #999999;
+        border-radius: 4px;
+        background: white;
+        margin-top: -8px;
+    }
+
+}

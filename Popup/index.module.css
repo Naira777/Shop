@@ -1,0 +1,96 @@
+.overlay {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0.6;
+    width: 100vw;
+    z-index: 2;
+
+}
+.main {
+
+    z-index: 10;
+    position: absolute;
+
+}
+.popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    transition: all 5s ease-in-out;
+    z-index: 3;
+    visibility: hidden;
+    width: max-content;
+    height: min-content;
+
+}
+
+.close {
+    float: right;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+
+}
+
+.content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 860px) {
+
+    .popup {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 4px;
+        transition: all 5s ease-in-out;
+        z-index: 3;
+        visibility: hidden;
+        width: max-content;
+        height: min-content;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .popup {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 4px;
+        transition: all 5s ease-in-out;
+        z-index: 3;
+        visibility: hidden;
+        height: min-content;
+        min-width: 100px;
+        
+  
+    }
+}
+

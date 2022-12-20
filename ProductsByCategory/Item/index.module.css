@@ -1,0 +1,209 @@
+.content {
+  height: 160px;
+  width: 89vw;
+  min-width: 300px;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.b {
+  width: 36%;
+  margin-left: 5px;
+}
+.box1 {
+  height: 144px;
+  width: 35%;
+  margin-top: 7px;
+  border-radius: 15px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.picBig {
+  width: 130px;
+  height: 180px;
+  border-radius: 5px;
+  object-fit: contain;
+
+}
+
+.flags {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: -145px;
+  margin-left: -5px;
+}
+
+.box2 {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+  height: 100%;
+}
+
+.pic1 {
+  height: 15px;
+  width: 40.000003814697266px;
+  margin-bottom: -37px;
+}
+.pic2 {
+  height: 15px;
+  width: 40.000003814697266px;
+  margin-bottom: -38px;
+}
+.pic3 {
+  height: 15px;
+  width: 40.000003814697266px;
+}
+.star {
+  width: 12px;
+  height: 12px;
+}
+.boxprice {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 70%;
+}
+.all {
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+  justify-content: center; 
+  align-items:flex-start;
+  
+
+}
+.text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 130%;
+  color: #212121;
+  margin-top: 10px;
+}
+.rate {
+  color: #999999;
+  margin-top: -17px;
+  margin-left: 64px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.Priceline {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: line-through;
+  color: #999999;
+}
+.PricelineNull {
+ height: 10px;
+}
+.Price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #212121;
+  margin-top: -15px;
+  width: 115px;
+  height: auto;
+}
+.Pricefor1 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #999999;
+  margin-top: -15px;
+  width: auto;  
+}
+.basket {
+  width: 36px;
+  height: 36px;
+  background: #3D9A85;
+  border-radius: 4px;
+  margin-left: -2px;
+  margin-top: 30px;
+  z-index: 2;
+  position: absolute;
+}
+.picbasket {
+  height: 20px;
+  width: 24px;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+.box3 {
+  width: 23%;
+  margin-top: -5px;
+
+}
+.dexintext {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  transform: translate(0px, 9px);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.karmirtext {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: white;
+  transform: translate(0px, 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.karmirtexthit {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: white;
+  transform: translate(0px, -28px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxstars {
+  margin-top: -10px;
+}
+.bbox {
+}
+
+@media screen and (max-width: 400px) {
+  .picBig {
+    width: 110px;
+    height: 110px;
+    border-radius: 10%;
+  }
+}
+@media screen and (max-width: 340px) {
+
+  .picBig {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+
+  }
+  .content {
+    height: 160px;
+    width: 85vw;
+    min-width: 260px;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+}

@@ -1,0 +1,14 @@
+.Box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    width: 100vw;
+    margin-bottom: -20px;
+    overflow: scroll;
+}
+.Box::-webkit-scrollbar{
+    opacity: 0;
+}
+.link {
+    width: max-content;
+}

@@ -1,0 +1,12 @@
+.link {
+    text-decoration: none;
+    padding: 11px;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    color: black;
+}

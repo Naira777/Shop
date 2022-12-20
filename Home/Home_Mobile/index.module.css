@@ -1,0 +1,163 @@
+.content {
+    height: auto;
+    width: 100vw;
+    margin-bottom: 150px;
+}
+
+.araqum {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -10px;
+}
+
+.araqum_item {
+    height: 84px;
+    width: 150px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ededed;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #F6F6F6;
+}
+
+.araqum_pic {
+    height: 16.50159454345703px;
+    width: 18.76123809814453px;
+    margin-bottom: 10px;
+}
+
+.araqum_text1 {
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.araqum_text2 {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(33, 33, 33, 0.8);
+}
+
+.slide_pic {
+   
+    border-radius: 4px;
+    margin-bottom: 10px; 
+    object-fit:cover;
+    
+
+}
+
+.slide_pics {
+    width: 100vw;
+    margin-left:-15px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: #dddddd;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.dots {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.slider {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-bottom: 25px;
+}
+
+.link {
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+
+.contentbytype {
+
+    margin-bottom: -110px;
+    margin-left: 15px;
+    padding-bottom: 40px;
+    z-index: 5;
+    position: relative;
+
+}
+
+.contentbytypeDiscount {
+    margin-bottom: -110px;
+    margin-left: 15px;
+    padding-bottom: 40px;
+    width: 95%;
+}
+
+.header {
+    display: inline-block;
+    width: 90px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+    color: #212121;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+.textpoqr {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(33, 33, 33, 0.8);
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.bslider {
+    width: 320px;
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .araqum_item {
+        width: 130px;
+
+    }
+
+    .slide_pic {
+        width: 350px;
+        height: 140px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+
+    }
+
+
+}
+
+
+
+
+
