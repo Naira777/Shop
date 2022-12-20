@@ -1,0 +1,35 @@
+
+.content {
+    height: auto;
+    width: 95vw;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-left:10px;
+}
+
+.vector {
+    height: 14px;
+    width: 14px;
+    margin-top: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.text {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+    margin-left: 15px;
+}
+
+.menu {
+
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+

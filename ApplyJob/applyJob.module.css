@@ -1,0 +1,193 @@
+.applyJob {
+    padding-left: 85px;
+    width: 100vw;
+}
+
+.applyJob__box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.applyJob__input {
+    box-sizing: border-box;
+    width: 560px;
+    height: 48px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #999999;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.applyJob__select {
+    width: 560px;
+    margin-bottom: 25px;
+}
+
+.applyJob__box_one {
+    margin-right: 44px;
+}
+
+.applyJob__select input {
+    height: 40px;
+}
+
+.applyJob__btn_disabled {
+    width: 563px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background: rgba(61, 154, 133, 0.4);
+    color: white;
+    cursor: no-drop;
+    margin: 20px 0px;
+}
+
+.applyJob__btn {
+    width: 563px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background: #3d9a85;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0px;
+
+}
+
+.applyJob_title {
+    width: 288px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 140%;
+    color: #212121;
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .applyJob__select {
+        width: 50vw;
+    }
+
+    .applyJob__input {
+        width: 50vw;
+    }
+
+    .applyJob__btn {
+        width: 35vw;
+        min-width: 270px;
+        margin-left: 0px;
+    }
+
+    .applyJob__btn_disabled {
+        width: 35vw;        
+        min-width: 270px;
+        margin-left: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 1284px) {
+    .applyJob {
+        padding-left: 50px;
+        margin-left: 40px;
+    }
+
+    .applyJob__input {
+        box-sizing: border-box;
+        width: 400px;
+        height: 48px;
+        padding-left: 10px;
+        margin-bottom: 25px;
+        border: 1px solid #999999;
+        background: #ffffff;
+        border-radius: 4px;
+    }
+
+    .applyJob {
+        padding-left: 0px;
+        width: 100vw;
+    }
+
+    .applyJob_title {
+        width: 288px;
+        height: 42px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 140%;
+        color: #212121;
+        margin-bottom: 60px;
+        margin-left: 15px;
+    }
+
+    .applyJob__select {
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .applyJob {
+
+        width: 70%;
+        margin-left: -10px;
+    }
+
+}
+
+@media only screen and (max-width: 880px) {
+
+    .applyJob {
+
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    .applyJob__input {
+        width: 60vw;
+        min-width: 270px;
+    }
+
+    .applyJob__select {
+        width: 60vw;
+        min-width: 270px;
+    }
+    .applyJob__btn {
+        width: 60vw;
+        min-width: 270px;
+        margin-left: 0px;
+    }
+
+    .applyJob__btn_disabled {
+        width: 60vw;        
+        min-width: 270px;
+        margin-left: 0px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .applyJob_title {
+        width: 288px;
+        height: 42px;
+        font-weight: 600;
+        font-size: 18px;     
+        margin-left:-5px;
+        margin-bottom: 15px;
+    }
+
+}
+
+
+

@@ -1,0 +1,287 @@
+.contentDesktop {
+
+    height: 152px;
+    max-width: 1152px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #EDEDED;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+.header {
+
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pic {
+    height: 120px;
+    width: 100px;
+    border-radius: 4px;
+    margin: 16px;
+    object-fit: contain;
+}
+.price {
+ 
+    font-weight: 600;
+    font-size: 16px;
+    color: #999999;
+}
+.pricespanline {
+    text-decoration: line-through;
+    
+}
+
+.pricespan {
+
+    font-weight: 600;
+    font-size: 16px;
+    color: #999999;
+}
+
+.buttonqty {
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    color: #3D9A85;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.qty {
+
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3D9A85;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+
+.karmirtext {
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #B00020;
+}
+
+.boxPrice {
+
+height: auto;
+}
+
+.priceqty {
+
+    min-width: 100px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #212121;
+}
+
+.close {
+
+    margin-right: 20px;
+    height: 21.33333396911621px;
+    width: 21.33333396911621px;
+    cursor: pointer;
+
+}
+
+.check {
+
+    height: 21.33333396911621px;
+    width: 21.33333396911621px;
+    margin-right: 20px;
+    margin-top: 72px;
+
+}
+.boxclose {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-right: 10px;
+   
+}
+.boxqtyAll {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.boxqtyAll .tooltiptext {
+
+    visibility: hidden;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B00020;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 5;
+    bottom: 118%;
+    left: 10%;
+    margin-left: -25px;
+    width: 160px;
+    height: 33px;
+    box-shadow: 0px 4px 8px rgba(33, 33, 33, 0.1);
+}
+.boxqtyAll:hover .tooltiptext {
+    visibility: visible;
+
+}
+@media screen and (max-width: 1100px) {
+
+   .qty {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #3D9A85;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .buttonqty {
+        height: 35px;
+        width: 35px;
+        border-radius: 4px;
+        color: #3D9A85;
+        border: none;
+        font-size: 20px;
+    }
+    .pricespan {
+
+
+        font-weight: 600;
+        font-size: 12px;
+        color: #212121CC;
+    
+    }
+    .price {
+ 
+        font-weight: 600;
+        font-size: 12px;
+        color: #999999;
+        
+    }
+    .priceqty {
+        font-size: 14px;
+    }
+    .boxclose {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        margin-top: 20px;
+        margin-right: 5px;
+           }
+    .contentDesktop {
+        min-width: 450px;
+        height: 140px;
+         width: 470px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #EDEDED;
+        margin-left: 10px;
+        margin-bottom: 16px;
+    }
+    .qty {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #3D9A85;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .pic {
+        height: 120px;
+        width: 80px;
+        border-radius: 4px;
+        margin: 13px;
+    
+    }
+    .close {
+        margin-right: 10px;
+        height: 21.33333396911621px;
+        width: 21.33333396911621px;
+    
+    }    
+    .check {    
+        height: 21.33333396911621px;
+        width: 21.33333396911621px;
+        margin-right: 10px;
+        margin-top: 72px;
+       
+    }    
+.boxPrice {
+    height: auto;
+    width: fit-content;
+    margin-left:-10px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .contentDesktop {
+
+        height: 140px;
+        max-width: 320px;
+        width: 320px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #EDEDED;
+        margin-left: 15px;
+        margin-bottom: 16px;
+
+    }
+    .pic {
+        height: 124px;
+        width: 101px;
+        border-radius: 4px;
+
+    }
+}

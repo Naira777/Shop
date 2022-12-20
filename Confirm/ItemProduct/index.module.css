@@ -1,0 +1,118 @@
+
+.itembox {
+    width: 30vw;
+    min-width: 400px;
+    height: 94px;
+    border: 0.5px solid #E4E4E4;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.pic {
+    width: 84px;
+    height: 88px;
+    border-radius: 4px;
+    margin: 7px;
+    object-fit: contain;
+}
+.title {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: #212121;
+    word-break: break-all;
+}
+
+.titlebox {
+    align-self: flex-start;
+    width: 60%;
+}
+.qty {
+    width: 8px;
+    height: 10px;
+    margin-right: 2px;
+}
+.close {
+    height: 20px;
+    width: 20px;
+    align-self: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.qtybox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.qtyboxall {
+
+    display: flex;
+    flex-direction: column;
+    min-width: max-content;
+}
+.qtyboxall1 .title {
+    margin-top: -5px;
+}
+@media screen and (max-width: 500px) {
+    .itembox {
+
+        width: 86vw;
+        min-width: 210px;
+        height: 85px;
+        border: 0.5px solid #E4E4E4;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .pic {
+        width: 50px;
+        height: 64px;
+        border-radius: 4px;
+        margin: 4px;
+    }
+    .titlebox {
+        margin-left: 0px;
+        width: fit-content;
+     
+
+    }
+    .qtyboxall {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        align-self: center;
+    }
+    .qty {
+        width: 7px;
+        height: 10px;
+        margin-right: 2px;
+    }
+    .close {
+        height: 16px;
+        width: 16px;
+        align-self: center;
+        margin-right: 10px;
+    }
+    .qtybox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 130%;
+        color: #212121;
+        word-break: break-all;
+    }
+}
+
+
+     

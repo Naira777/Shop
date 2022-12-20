@@ -1,0 +1,199 @@
+/* details */
+.details__title_download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details__download {
+    color: #23527c;
+}
+
+.details__title {
+    font-family: "Mardoto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #212121;
+}
+
+.details__product_box {
+    display: flex;
+    width: 412px;
+    margin-bottom: 12px;
+    padding: 8px;
+    background: #ffffff;
+    border: 0.5px solid #ededed;
+    border-radius: 4px;
+}
+
+.details__price_box {
+    margin-left: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details__price_title {
+    font-family: "Mardoto";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    font-size: 16px;
+    color: #212121;
+}
+
+.details__price {
+    margin-right: 6px;
+    color: #999999;
+    text-decoration-line: line-through;
+}
+
+.details__salePrice {
+    font-family: "Mardoto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+
+.details__count_price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: "Mardoto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+
+.details__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details__box_info {
+    margin-right: 30px;
+}
+
+.details__shopping_box {
+    width: 100%;
+}
+
+.details__shopping_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.withIcon {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 5%;
+}
+
+.details__withIcon_svg {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.details_svg {
+    margin-right: 16px;
+}
+
+.standard__info {
+    padding: 25px 0 25px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    line-height: 150%;
+    color: rgba(33, 33, 33, 0.8);
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.collNumber {
+    width: 135px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #212121;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1284px) {
+    .withIcon {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .details__title_download {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .details__box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details__address {
+        width: 45%;
+    }
+
+    .details__box_info {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    .details__title_download {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .details__shopping_box {
+        width: 80%;
+    }
+
+    .withIcon {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .details_svg {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    .details__product_box {
+        width: 352px;
+    }
+
+    .collNumber {
+        margin-top: 15px;
+    }
+
+    .chat {
+        margin-top: 15px;
+    }
+}
+
+/* dropdown */
+.dropdown_standard span {
+    font-weight: 500;
+    color: #212121;
+}

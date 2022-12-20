@@ -1,0 +1,128 @@
+.career__btn_list {
+    margin-top: 10px;
+    margin-left: 85px;
+}
+
+.career_btn {
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 8px;
+    padding: 10px 16px 10px 16px;
+    border: 0px solid #f6f6f6;
+    background: #f6f6f6;
+    color: rgba(33, 33, 33, 0.8);
+    cursor: pointer;
+}
+
+.career_btn:focus {
+    background: #3d9a85;
+    color: #ffffff;
+}
+
+.career_btn:hover {
+    background: #3d9a85;
+    color: #ffffff;
+}
+
+.career_btn:active {
+    background: #3d9a85;
+    color: #ffffff;
+}
+
+.career__feedback {
+    margin-top: 65px;
+    margin-bottom: 80px;
+    background-color: #f6f6f6;
+}
+
+.career__applyJob_subscribe {
+    display: flex;
+    align-items: center;
+}
+
+.career__applyJob {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.career__subscribe {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 1360px) {
+    .career__subscribe {
+        justify-content: flex-start;          
+        margin-bottom: 80px;
+        margin-left:-30px;
+    }
+
+    .career__applyJob_subscribe {
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 880px) {
+    .career__subscribe {
+        justify-content: flex-start;
+        margin-left: 35px;
+    }
+
+    .career__applyJob {
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-left: 35px;
+    }
+
+    .career__applyJob_subscribe {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .career__subscribe {
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 811px) {
+    .career__subscribe {
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+
+    .career__applyJob {
+        justify-content: center;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .career__btn_list {
+        margin-left: 20px;
+    }
+    .career__subscribe {
+   
+        margin-bottom: 80px;
+    
+    }
+}
+
+@media only screen and (max-width: 442px) {
+    .career__btn_list {
+        margin-left: 18px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .career__btn_list {
+        margin-left: 5px;
+    }
+}

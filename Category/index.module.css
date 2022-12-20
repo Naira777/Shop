@@ -1,0 +1,94 @@
+.category {
+    width: 100vw;
+    margin-bottom: 120px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.boxContent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.text {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.text1 {
+
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin-top: 25px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+.text_small {
+    width: 70px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+    margin-left: 82px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.category_mobile {
+    height: auto;
+    width: 95vw;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+
+.box_mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.boxContent_mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+
+.text_mobile {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+}
+
+.text1_mobile {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin-top: 25px;
+}
+
+.vector_mobile {
+    height: 14px;
+    width: 14px;
+    margin-top: 22px;
+}

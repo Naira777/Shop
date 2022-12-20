@@ -1,0 +1,246 @@
+.dropDown__children {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.dropDown {
+    width: 800px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_title {
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+}
+
+.dropDown_box {
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+}
+
+.item_title {
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 12px;
+    line-height: 150%;
+    text-align: right;
+    color: #212121;
+}
+
+
+/* details */
+.details__title_download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details__download {
+    color: #23527c;
+}
+
+.details__title {
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #212121;
+}
+
+.details__product_box {
+    display: flex;
+    width: 104%;
+    margin-bottom: 12px;
+    padding: 8px;
+    background: #ffffff;
+    border: 0.5px solid #ededed;
+    border-radius: 4px;
+}
+
+.details__price_box {
+    margin-left: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details__price_title {
+    font-weight: 500;
+    line-height: 130%;
+    font-size: 16px;
+    color: #212121;
+}
+
+.details__price {
+    margin-right: 6px;
+    color: #999999;
+    text-decoration-line: line-through;
+}
+
+.details__salePrice {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+
+.details__count_price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+    width: 170px;
+}
+
+.details__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details__box_info {
+    margin-right: 30px;
+}
+
+.details__shopping_box {
+    width: 100%;
+}
+
+.details__shopping_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.withIcon {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 5%;
+}
+
+.details__withIcon_svg {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.details_svg {
+    margin-right: 16px;
+}
+/* mobile */
+.accordionProductMobile {
+    width: 500px;
+}
+
+.mobile_dropDown__children {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.mobile_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.mobile_title_number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3d9a85;
+}
+
+.mobile_title_date {
+    font-size: 12px;
+    line-height: 130%;
+    color: rgba(33, 33, 33, 0.8);
+}
+
+.pic {
+    width: 60px;
+    height: 70px;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .details__count_price {   
+        width: 130px;
+    } 
+    .accordionProductMobile {
+        width: 650px;
+        margin-bottom: 80px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+
+    .dropDown_box {
+        flex-direction: column;
+    }
+    .info_title {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width: 1088px) {
+    .details__box {
+        display: flex;
+        flex-direction: column;
+    }
+    .dropDown {
+        width: 600px;
+    }
+
+}
+@media only screen and (max-width: 860px) {
+ 
+    .dropDown_box {
+        flex-direction: column;
+    }
+    .info_title {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .accordionProductMobile {
+        width: 450px;
+        margin-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .accordionProductMobile {
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 524px) {
+    .details__box {
+        display: flex;
+        flex-direction: column;
+    }
+    .dropDown {
+        width: 300px;
+    }
+    .dropDown__children {
+        border-top: 0px !important;
+        border-bottom: 0px !important;
+    }
+    .dropDown__box_info {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+

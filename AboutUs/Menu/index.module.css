@@ -1,0 +1,27 @@
+
+.content {
+
+    margin-left: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.link {
+
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 130%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    color: black;
+    padding: 7px;
+    display: inline;
+
+
+}
+
+  

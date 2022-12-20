@@ -1,0 +1,42 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 210px;
+    width: 240px;
+    border-radius: 4px;
+    margin-top: 24px;
+   
+}
+.pic {
+    height: 126px;
+    width: 126px;
+    border-radius: 50%;
+}
+.title {
+    font-size: 18px;
+    line-height: 25px;
+    color: #212121;
+    width: 200px;
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+}
+@media screen and (max-width: 1200px) {
+
+
+    .title {
+
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #212121;
+        width: 150px;
+        text-align: center;
+    
+    }
+    
+
+} 

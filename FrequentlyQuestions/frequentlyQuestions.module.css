@@ -1,0 +1,53 @@
+.frequentlyQuestions {
+    padding: 0 80px;
+}
+
+.frequentlyQuestions__title {
+    margin-top: 40px;
+    line-height: 35px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.dropDown__children {
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.dropDown {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropDown__title {
+    text-align: start;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #212121;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 578px) {
+    .frequentlyQuestions {
+        padding: 0 35px;
+    }
+
+    .frequentlyQuestions__title {
+
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 376px) {
+    .frequentlyQuestions {
+        padding: 0 15px;
+    }
+}
+
+

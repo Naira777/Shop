@@ -1,0 +1,613 @@
+.contentDesktop {
+    margin-bottom: 50px;
+
+}
+
+.checkBox {
+    margin-top: 6px;
+    border-radius: 4px;
+    height: 21px;
+    width: 21px;
+    border: 1px solid rgb(206, 204, 204);
+    margin-left: 10px;
+    margin-bottom: 9px;
+    cursor: pointer;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(33, 33, 33, 0.8);
+    text-align: center;
+
+
+}
+
+.text2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(33, 33, 33, 0.8);
+    text-align: center;
+    width: 392px;
+    margin-left: -130px;
+}
+
+.text_small {
+
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #999999;
+    padding-left: 80px;
+
+}
+
+.header {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #212121;
+    padding-left: 80px;
+}
+
+.mycart {
+
+    height: 275px;
+    width: 320px;
+    margin-top: 60px;
+}
+
+
+.textCart {
+
+    width: 240px;
+    height: 98px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #212121;
+
+}
+
+.cart1 {
+
+    height: 54.0035514831543px;
+    width: 42.51576232910156px;
+    margin-bottom: 30px;
+
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.box5 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 63vw;
+    height: 600px;
+
+}
+
+
+.link {
+    text-decoration: none;
+    padding: 10px 16px 10px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    margin-right: 8px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    color: black;
+    margin-top: 30px;
+}
+
+.links {
+    padding-left: 80px;
+    margin-bottom: 40px;
+}
+
+.prod_count {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(33, 33, 33, 0.8);
+    padding-left: 80px;
+    width: 50%;
+}
+
+.prod_count1 {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(33, 33, 33, 0.8);
+    padding-left: 15px;
+
+
+}
+
+.boxprodcount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 0px;
+    max-width: 1190px;
+    min-width: 700px;
+}
+
+.boxpro1 {
+    width: 60vw;
+    min-width: 400px;
+}
+
+.check {
+    height: 24.88888931274414px;
+    width: 24.88888931274414px;
+    margin-left: 10px;
+}
+
+.boxcheck {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.confirmbox {
+    margin-left: 30px;
+    height: 327px;
+    min-width: 410px;
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+    width: 30vw;
+    margin-top: 50px;
+}
+
+.confirmbox1 {
+
+    height: 327px;
+    min-width: 210px;
+    background: #ffffff;
+    width: 90vw;
+    margin-top: 50px;
+
+}
+
+.text11 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #212121;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.box11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -10px;
+
+}
+
+
+.cart {
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+}
+
+.line1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 40px;
+}
+
+.boxprice {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 540px;
+    margin-right: 50px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: -35px;
+}
+
+.line2 {
+    max-width: 470px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 75px;
+}
+
+.line21 {
+    width: 95%;
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 15px;
+
+}
+
+
+.text1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #212121;
+    margin-left: 45px;
+    margin-right: 50px;
+    margin-top: 40px;
+    width: 50%;
+}
+
+.text12 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #212121;
+    margin-right: 10%;
+    margin-top: 40px;
+    min-width: 100px;
+
+}
+
+
+.textkanach {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3d9a85;
+    margin-left: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+    width: 200px;
+    height: 48px;
+    background: #3d9a85;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+
+
+}
+
+.box12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+
+}
+
+.button1 {
+    width: 160px;
+    height: 48px;
+    background: #3d9a85;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.vector {
+    display: none;
+    cursor: pointer;
+}
+
+.price1 {
+    font-size: 18px;
+    line-height: 19px;
+    color: #212121;
+    font-weight: 600;
+
+}
+
+.price {
+    font-size: 18px;
+    line-height: 19px;
+    color: #212121;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        margin-bottom: 50px;
+    }
+
+    .checkBox {
+
+        margin-top: 6px;
+        border-radius: 4px;
+        height: 21px;
+        width: 21px;
+        border: 1px solid rgb(206, 204, 204);
+        margin-left: 7px;
+
+    }
+
+    .confirmbox {
+        margin-left: 0px;
+        min-width: 395px;
+
+    }
+
+    .boxprodcount {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 0px;
+        min-width: 490px;
+
+    }
+
+
+    .prod_count {
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(33, 33, 33, 0.8);
+        padding-left: 20px;
+        width: 50%;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -20px;
+        margin-left: 60px;
+
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .box {
+        margin-bottom: 50px;
+    }
+
+    .contentDesktop {
+        margin-bottom: 0px;
+    }
+
+    .boxprodcount {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 50px;
+        width: 96vw;
+        min-width: 15vw;
+    }
+
+    .button1 {
+        width: 155px;
+        height: 40px;
+        background: #3d9a85;
+        border-radius: 4px;
+        border: none;
+        color: #ffffff;
+        margin-right: 0px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .textkanach {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #3d9a85;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .confirmbox {
+        margin-left: 0px;
+        border: none;
+        margin-top: 50px;
+        height: 327px;
+        background: #ffffff;
+        min-width: 200px;
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        width: 360px;
+    }
+
+    .boxprice {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        max-width: 300px;
+        margin-right: 0px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .button1 {
+        height: 40px;
+        width: 155px;
+        padding: 10px 32px 10px 32px;
+        font-size: 14px;
+    }
+
+    .textkanach {
+        font-size: 14px;
+    }
+
+    .text1 {
+        font-size: 18px;
+    }
+
+    .prod_count {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: rgba(33, 33, 33, 0.8);
+        padding-left: 15px;
+    }
+
+    .mycart {
+        height: 115.99919128417969px;
+        width: 140px;
+    }
+
+    .text {
+        width: 90vw;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .button {
+        width: 154px;
+        font-size: 14px;
+        height: 41px;
+        margin-bottom: 10px;
+    }
+
+    .vector {
+        height: 14px;
+        width: 14px;
+        margin-left: 15px;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .textpoqr {
+        display: none;
+    }
+
+    .header {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #212121;
+        padding-left: 0px;
+        margin-left: 15px;
+    }
+
+    .link {
+        text-decoration: none;
+        padding: 10px 16px 10px 16px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+        margin-right: 8px;
+        background: #f6f6f6;
+        border-radius: 4px;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .links {
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+
+    .price {
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121;
+        font-weight: 600;
+    }
+
+    .box {
+        margin-bottom: 50px;
+    }
+
+    .checkBox {
+        margin-top: 6px;
+        border-radius: 4px;
+        height: 20px;
+        width: 25px;
+        border: 1px solid rgb(206, 204, 204);
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .confirmbox {
+        margin-left: 80px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .boxcheck {
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .boxcheck {
+        margin-left: 80px;
+    }
+}
+
+
+
+

@@ -1,0 +1,44 @@
+.vector {
+    height: 14px;
+    width: 14px;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+.text {
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: #212121;
+    margin-left: 80px;
+}
+
+.textpoqr {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 80px;
+    color: #999999;
+}
+
+.category_items {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.content {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    min-height: 200px;
+
+}
