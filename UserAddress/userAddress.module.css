@@ -1,0 +1,146 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.greenText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3d9a85;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.buttonSmall {
+    width: 152px;
+    height: 40px;
+    background: #3d9a85;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fefffe;
+    border: none;
+}
+.buttonSmall:hover {
+    box-shadow: 0px 0px 5px #648873;
+}
+.buttonBig {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fefffe;
+    height: 48px;
+    width: 264px;
+    background: #3d9a85;
+    box-shadow: 0px 8px 8px rgba(51, 58, 57, 0.15);
+    border-radius: 4px;
+    border-radius: 4px;
+    padding: 12px 12px 12px 12px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    align-self: center;
+
+}
+.buttonBig:hover {
+    box-shadow: 0px 0px 5px #648873;
+}
+.header {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 130%;
+    color: #212121;
+}
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: rgba(33, 33, 33, 0.8);
+}
+.box {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.text1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 680px) {
+    .content {
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 460px) {
+    .buttonBig {
+        font-size: 14px;
+        height: 37px;
+        width: 190px;
+    }
+    .greenText {
+        font-size: 13px;
+
+    }
+    .buttonSmall {
+        height: 35px;
+        width: 140px;
+        font-size: 13px;
+    }
+    .content {
+        width: 90%;
+    }
+    .box {
+  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    .header {
+        font-weight: 700;
+        font-size: 18px;
+
+    }
+    .text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: rgba(33, 33, 33, 0.8);
+    }
+    .content {
+        width: 67vw;
+    }
+    .box1 {
+
+        width: 70vw;
+    }
+    .text1 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 340px) {
+    .content {
+        width: 62vw;
+    }
+    .box1 {
+
+        width: 65vw;
+    }
+
+
+
+}

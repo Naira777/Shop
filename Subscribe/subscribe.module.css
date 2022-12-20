@@ -1,0 +1,131 @@
+
+.subscribe__title_text {
+    text-align: center;
+}
+
+.subscribe__title_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(33, 33, 33, 0.8);
+}
+
+.subscribe__email_btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscribe__email {
+    background: #F6F6F6;
+    border: 1px solid #F6F6F6;
+    border-radius: 4px;
+    width: 400px;
+    height: 48px;
+    padding-left: 13px;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #999999;
+}
+.title {}
+
+.subscribe__btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 116px;
+    height: 48px;
+    background: #3D9A85;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFF2F2;
+    margin-left: -15px;
+
+}
+
+.subscribe__icon_btn {
+    width: 40px;
+    height: 40px;
+    left: 300px;
+    top: 3173px;
+    background: #3D9A85;
+    border: 1px solid #3D9A85;
+    border-radius: 0px 4px 4px 0px;
+    margin-left: -15px;
+}
+
+@media only screen and (max-width: 1112px) {
+
+    .subscribe__title_text {
+        font-size: 19px;
+    }
+
+    .subscribe__email_btn {
+        display: flex;
+        justify-content: normal;
+        margin-bottom: 20px;
+    }
+
+    .subscribe__icon_btn {
+        width: 120px;
+        height: 51px;
+    }
+}
+
+@media only screen and (max-width: 652px) {
+
+    .subscribe__email_btn {
+        display: flex;
+        justify-content: normal;
+        margin-bottom: 20px;
+    }
+
+    .subscribe__icon_btn {
+        border-radius: 0px 4px 4px 0px;
+        height: 51px;
+        width: 60px;
+    }
+
+    .subscribe__email {
+        width: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 652px) {
+
+    .subscribe__email_btn {
+        display: flex;
+        justify-content: normal;
+        margin-bottom: 20px;
+    }
+    .subscribe__icon_btn {
+        border-radius: 0px 4px 4px 0px;
+        height: 51px;
+        width: 60px;
+    }
+    .subscribe__email {
+        width: 210px;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+
+    .title {
+        font-size: 12px;
+        margin-top:50px;
+        margin-bottom: 15px;
+    }
+   .title1 {
+        font-size: 15px;
+    }
+    .subscribe {
+        margin-bottom: 60px;
+    }
+    
+}

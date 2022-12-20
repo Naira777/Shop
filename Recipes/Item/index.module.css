@@ -1,0 +1,89 @@
+.content {
+    width: 85vw;
+    min-width: 230px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    margin-right: 11px;
+
+}
+.picBig {
+    height: 144px;
+    width: 112px;
+    left: 28px;
+    margin-top: 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+    object-fit: contain;
+}
+.text {  
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: wrap;
+    color: #212121;
+    margin-bottom: -10px;
+}
+.time {
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #999999;
+    margin-left: 5px;
+    margin-top: 0.5px;
+}
+.type {
+ 
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #999999;
+    margin-left: 10px;
+    margin-top: 0.5px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.fire {
+    height: 16px;
+    width: 13px;
+    margin-top: -1px;
+}
+.clock {
+    height: 16px;
+    width: 16px;
+}
+.star {
+    width: 14px;
+    height: 14px;
+}
+.rate {
+    color: #999999;
+    margin-top: -18px;
+    margin-left: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    justify-content: space-between;
+    margin-top: -7px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: -3px;
+    margin-bottom: -4px;
+}
+.rating {
+    margin-top: -45px;
+}

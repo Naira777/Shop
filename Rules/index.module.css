@@ -1,0 +1,52 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-left: 0px;
+    margin-bottom: 100px;
+}
+.vector {
+    display: none;
+}
+.header {
+    margin-left: 80px;
+    font-size: 30px;
+    line-height: 35px;
+}
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #212121;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+@media screen and (max-width: 500px) {
+    .content {
+        width: 345px;
+        margin-left: 15px;
+    }
+    .vector {
+        height: 14px;
+        width: 14px;
+        margin-top: 15px;
+        display: inline;
+    }
+    .header {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #212121;
+        margin-left: 0px;
+    }
+    .text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #212121;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 320px;
+    }
+}
+  

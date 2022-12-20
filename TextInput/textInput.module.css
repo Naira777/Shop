@@ -1,0 +1,21 @@
+.text_input {
+    position: relative;
+}
+
+.eyeIcon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.closed_eye {
+    width: 26px;
+    height: 26px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    /* margin: 0; */
+}

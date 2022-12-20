@@ -1,0 +1,68 @@
+@keyframes anim {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0.4;
+    }
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.vecBox {
+    width: 40%;    
+}
+.select {
+    height: 40px;
+    width: max-content;
+    border-radius: 4px;
+    border: 1px solid #cecdcd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.selectAll {
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.vec {
+    margin-right: 10px;
+    transform: '';
+}
+.selectbox {
+    height: 152px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px 0px #2121211a;
+    margin-top: 3px;
+    display: none;
+    animation: anim 200ms ease-in-out forwards;
+    z-index: 5;
+    position: absolute;
+    background: white;
+    cursor: pointer;
+}
+.textselect {
+    margin-left: 10px;
+    margin-right: 30px;   
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(33, 33, 33, 0.8);
+    width: 62%;
+}
+.selectoption {
+    height: 38px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.selectoption:hover {
+    background-color: #f6f6f6;
+}

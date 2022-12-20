@@ -1,0 +1,124 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  margin-left: 15px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.header {
+  font-family: "Mardoto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #212121;
+}
+
+.text {
+  font-family: "Mardoto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: rgba(33, 33, 33, 0.8);
+}
+
+.textpoqr {
+  font-family: "Mardoto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(33, 33, 33, 0.8);
+}
+.text_kapuyt {
+  font-family: "Mardoto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #23527c;
+  margin-right: 15px;
+}
+
+.button {
+  width: 320px;
+  height: 40px;
+  background: rgba(61, 154, 133, 0.4);
+  border-radius: 4px;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 0px 8px 8px rgba(51, 58, 57, 0.15);
+ margin-bottom: 30px;
+
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+  width:auto;
+  margin-bottom: 15px;
+  margin-top: -8px;
+}
+
+.country_code {
+  width: 63px;
+  height: 40px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  margin-right: 10px;
+  background: white;
+ text-align: center;
+}
+.tel_code {
+  width: 237px;
+  height: 40px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  background: white;
+}
+.code {
+  width: 320px;
+  height: 40px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  background: white;
+  margin-top: -8px;
+}
+.vector {
+  height: 14px;
+  width: 14px;
+}
+.rem {
+
+  width: 296px;
+height: 49px;
+font-family: 'Mardoto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: rgba(33, 33, 33, 0.8);
+padding-top: 32px;
+
+}
+.check {
+  height: 18px;
+   width: 18px;
+align-self: center;
+padding-right: 9px;
+}
+.checkbox {
+margin-top: -30px;
+margin-bottom: -30px;
+
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+  justify-content: flex-start; */
+}

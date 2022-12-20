@@ -1,0 +1,41 @@
+.supplier__form_img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.supplier__img {
+    margin-top: 157px;
+    height: 50%;
+}
+
+.page_title {
+    margin-left: 120 pxs;
+}
+
+@media only screen and (max-width: 1030px) {
+    .supplier__form_img {
+        justify-content: center;
+        flex-direction: row-reverse;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .supplier__img {
+        margin-top: 30px;
+    }
+
+    .supplier__img {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 811px) {
+    .supplier__form_img {
+        margin-left: 50px;
+        align-items: flex-start;
+    }
+
+    .supplier__img {
+        width: 80%;
+    }
+}

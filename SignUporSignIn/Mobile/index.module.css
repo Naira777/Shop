@@ -1,0 +1,114 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    margin-left: 15px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+}
+.vector {
+    height: 14px;
+    width: 14px;
+}
+.text { 
+    font-size: 14px;
+    line-height: 130%;
+    color: rgba(33, 33, 33, 0.8);
+    margin-bottom: 30px;
+    width: 350px;
+}
+.textpoqr {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(33, 33, 33, 0.8);
+}
+.text_kapuyt {
+
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #23527c;
+    margin-right: 15px;
+}
+
+.button {
+    width: 320px;
+    height: 40px;
+    background: rgba(61, 154, 133, 0.4);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0px 8px 8px rgba(51, 58, 57, 0.15);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: -8px;
+}
+
+.country_code {
+    width: 63px;
+    height: 42px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    margin-right: 10px;
+    background: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #212121;
+}
+.tel_code {
+    width: 237px;
+    height: 40px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    background: white;
+}
+.tel_code::placeholder {
+
+     font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #999999;
+
+}
+.error1 {
+    color: #B00020;
+    font-size: 13px;
+    margin-top: -13px;
+}
+@media screen and (max-width: 400px) {
+
+    .tel_code {
+        width: 150px;
+        height: 40px;
+        border: 1px solid #999999;
+        border-radius: 4px;
+        background: white;
+    }
+        .text { 
+        font-size: 14px;
+        line-height: 130%;
+        color: rgba(33, 33, 33, 0.8);
+        margin-bottom: 30px;
+        width: 85vw;
+    }
+
+}
+

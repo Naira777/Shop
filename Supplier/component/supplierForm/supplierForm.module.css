@@ -1,0 +1,124 @@
+.supplier__form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.supplier__form_title {
+    margin-bottom: 80px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    color: #212121;
+}
+
+.supplier__input {
+    width: 100%;
+    height: 48px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+
+.supplier__select {
+    width: 103%;
+    margin-bottom: 20px;
+}
+
+.supplier__select input {
+    height: 48px;
+}
+
+.supplier__textarea {
+
+    height: 120px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+
+.supplier__btn_disabled {
+    width: 264px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background: rgba(61, 154, 133, 0.4);
+    color: white;
+    cursor: no-drop;
+}
+
+.supplier__btn {
+    width: 264px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background: #3d9a85;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 811px) {
+    .supplier__form {
+        width: 80%;
+       
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .supplier__form {
+     
+        margin-left:-30px;
+    }
+
+    .supplier__form_title {
+        width: 90vw;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 130%;
+        color: #212121;
+    }
+
+    .supplier__select {
+        width: 106%;
+    }
+
+.supplier__btn_disabled {
+    width: 95%;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background: rgba(61, 154, 133, 0.4);
+    color: white;
+    cursor: no-drop;
+}
+
+.supplier__btn {
+    width: 95%;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background: #3d9a85;
+    color: white;
+    cursor: pointer;
+}
+
+}

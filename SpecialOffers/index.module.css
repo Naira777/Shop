@@ -1,0 +1,241 @@
+.content {
+    margin-bottom: 120px;
+    width: 100vw;
+}
+.Box {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+.textpoqr {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 16px;
+    margin-left: 75px;
+    color: #999999;
+}
+.vector {
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: translateY(-7px);
+    height: 8px !important;
+    width: 4px !important;
+}
+.items_box {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.vector {
+    height: 14px;
+    width: 14px;
+    margin-top: 15px;
+}
+.link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    color: black;
+    width: max-content;
+    padding: 1px 15px 1px 15px; 
+    height: 38px;
+}
+.header {
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.text1 {
+    width: 392px;
+    height: 54px;   
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(33, 33, 33, 0.8);
+    margin-top: 35px;
+}
+.offer {
+    height: 275px;
+    width: 320px;
+    margin-top: 35px;
+}
+.button {
+    width: 200px;
+    height: 48px;
+    background: #3d9a85;
+    border-radius: 4px;
+    color: #fefffe;
+    border: none;   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 35px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.link_M {
+    text-decoration: none;
+    padding: 10px 12px 10px 12px;   
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    color: black;
+}
+.Box_Mobile {
+    width: 95vw;
+    margin-bottom: 40px;
+}
+.header_M {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+}
+.vector_M {
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.content_M {
+    margin-left: 15px;
+    margin-bottom: 120px;
+}
+.box_Mobile {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    margin-top: 50px;
+
+}
+
+.offer_M {
+    height: 94px;
+    width: 100.00019073486328px;
+}
+
+.text1_M {
+
+    height: 42px;
+    width: 85vw;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(33, 33, 33, 0.8);
+
+}
+.button_M {
+    width: 155px;
+    height: 40px;
+    background: #3D9A85;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FEFFFE;
+    border: none;
+    margin-top: 30px;
+}
+
+
+
+.box_Mobile_Likes {
+
+margin-left: 15px;
+width: 90vw;
+
+}
+
+@media screen and (max-width: 680px) { 
+    .Box {
+        margin-left: 30px;
+    }
+    .items_box {      
+        margin-left:-25px;
+        margin-top: 50px;
+    }
+    .header {   
+        margin-left: 30px;       
+    }  
+}
+
+@media screen and (max-width: 580px) { 
+    .Box {
+        margin-left: 30px;
+    }
+    .items_box {      
+        margin-left:-25px;
+        margin-top: 50px;
+    }
+    .header {   
+        margin-left: 30px;       
+    }  
+   .content_M {
+        margin-left: 10px;
+        margin-bottom: 120px;
+  
+   }
+    .box_Mobile_Likes {
+
+        margin-left: 0px;
+        display: flex;
+        justify-content: flex-start;        
+    }
+}
+
+
+@media screen and (max-width: 500px) { 
+.box_Mobile {
+
+    width: 90vw;
+    margin-top: 50px;
+
+}
+
+
+}
+
+
+

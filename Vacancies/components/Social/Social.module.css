@@ -1,0 +1,18 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    padding: 30px 60px;
+}
+
+.social_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.social_svg {
+    margin-left: 15px;
+}
+

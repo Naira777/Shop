@@ -1,0 +1,104 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    margin-left: 15px;
+    margin-bottom: 100px;
+}
+.Content {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-bottom: 100px;
+}
+.vector {
+    height: 14px;
+    width: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+    margin-top: 15px;
+}
+.link {
+    text-decoration: none;
+}
+.menu { 
+    width: max-content;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.Content_mobile {
+    width: 100vw;
+    height: auto;
+    margin-left: 12px;
+    margin-bottom: 100px;
+}
+.vector {
+    height: 14px;
+    width: 14px;
+    margin-top: 22px;
+}
+.text_mobile {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+}
+.Button {
+    padding: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    color: black;
+}
+.Box_mobile {
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxContent_mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.filter {
+    width: 90vw;
+    height: 40px;
+    background: #f6f6f6;
+    margin-top: 30px;
+    margin-bottom: -50px;
+    margin-right:  10vw;
+    cursor: pointer;
+}
+.filterpic {
+    float: right;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+.title_D {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #212121;
+    margin-left: 80px;
+    font-weight: 500;
+}
+.box_D {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
